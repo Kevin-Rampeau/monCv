@@ -1,0 +1,12 @@
+#masque{
+	width: 128px;
+	height: 128px;
+	overflow: hidden;
+	position: absolute;
+	border:solid black 1px;
+	
+}
+#explosion{
+	position : absolute;
+	
+}

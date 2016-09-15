@@ -1,0 +1,121 @@
+/******************************************************
+***************BARRES COMPETENCES EST VIE**************
+*******************************************************
+******************************************************/
+/*CONTENAIRE BARRE DE COMPETENCE*/
+#barreCompetences{
+	width : 100px;
+	height: 600px;
+	display:inline-block;
+	position:absolute;
+	z-index:50;
+}
+/*CONTENAIRE BARRE DE VIE*/
+#barreVies{
+	width : 100px;
+	height: 600px;
+	display:inline-block;
+	position:absolute;
+	z-index:50;
+}
+#html{
+	width : 50px;
+	height: 50px;
+	position:absolute;
+	top: 5px;
+	left:25px;
+}
+
+#css{
+	width : 50px;
+	height: 50px;
+	position:absolute;
+	top: 60px;
+	left:25px;
+}
+#javascript{
+	width : 50px;
+	height: 50px;
+	position:absolute;
+	top:115px;
+	left:25px;
+}
+#jquery{
+	width : 50px;
+	height: 50px;
+	position:absolute;
+	top: 170px;
+	left:25px;
+}
+#bootstrap{
+	width : 50px;
+	height: 50px;
+	position:absolute;
+	top: 225px;
+	left:25px;
+}
+#angular{
+	width : 50px;
+	height: 50px;
+	position:absolute;
+	top: 280px;
+	left:25px;
+}
+#mongodb{
+	width : 50px;
+	height: 50px;
+	position:absolute;
+	top: 335px;
+	left:25px;
+}
+#nodejs{
+	width : 50px;
+	height: 50px;
+	position:absolute;
+	top: 390px;
+	left:25px;
+}
+#ajax{
+	width : 50px;
+	height: 50px;
+	position:absolute;
+	top: 445px;
+	left:25px;
+}
+#expressjs{
+	width : 50px;
+	height: 50px;
+	position:absolute;
+	top: 500px;
+	left:25px;
+}
+#meteor{
+	width : 50px;
+	height: 50px;
+	position:absolute;
+	top: 550px;
+	left:25px;
+}
+#vaisseauMini1{
+	width : 70px;
+	height: 70px;
+	position:absolute;
+	top:185px;
+	left:620px;
+}
+#vaisseauMini2{
+	width : 70px;
+	height: 70px;
+	position:absolute;
+	top:265px;
+	left:620px;
+}
+#vaisseauMini3{
+	width : 70px;
+	height: 70px;
+	position:absolute;
+	top:345px;
+	left:620px;
+}
+
+
