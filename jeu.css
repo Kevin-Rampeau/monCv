@@ -29,6 +29,7 @@ h4{
 	border:solid black 5px;
 	border-radius:50px;
 	position:relative;
+	box-shadow: 1px 1px 30px #19DDF7;
 	/*border:solid red 1px;*/
 }
 
@@ -41,6 +42,7 @@ h4{
 	top:0;
 	background: black;
 	opacity:1;
+	
 }
 
 /*Cadre fenetre vaisseau*/
@@ -53,7 +55,7 @@ h4{
 	display:inline-block;
 	z-index:40;
 	margin-left:0px;
-	border-radius:30px;
+	border-radius:50px;
 }
 /*plateau de jeu*/
 #plateauDeJeu{
@@ -473,7 +475,12 @@ h4{
 /**********************************************************
 *************************SITE******************************
 **********************************************************/
-
+h1{
+	background:rgba(0,0,0,0.5);
+	box-shadow: 1px 1px 12px #555;
+	width : 100%;
+	height:200px;
+}
 #deuxiemeFond{
 	background:url(fond/fondEcranPage.jpeg) no-repeat;
 	position:absolute;
@@ -513,7 +520,8 @@ ul{
 	position:absolute;
 	top:0;
 	left:30px;
-	z-index:50
+	z-index:50;
+	position: fixed;
 }
 li{
 	/*border:red solid 1px;*/
@@ -532,8 +540,7 @@ li{
 	
 }
 li:hover{
-	background:rgba(158,27,27,0.5);
-
+	box-shadow: 1px 1px 12px #555;
 }
 
 li:nth-child(2){
@@ -562,6 +569,7 @@ li:nth-child(2){
 	top:-500px;
 	width:100%;
 	text-align:center;
+	
 }
 li a{
 	color:silver;
